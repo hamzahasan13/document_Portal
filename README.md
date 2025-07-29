@@ -51,3 +51,65 @@ git push
 ```
 git clone <>
 ```
+
+### Setup
+```
+touch setup.py
+```
+
+### Logging & Exception
+```
+mkdir logging
+touch logging/custom_logger.py
+```
+```
+mkdir exception
+touch exception/custom_exception.py
+```
+
+### Source Code
+```
+mkdir src
+```
+### Utils
+```
+mkdir utils
+```
+
+### Experiments
+```
+mkdir notebook
+```
+```
+touch notebook/experiments.ipynb
+```
+
+### Config
+```
+mkdir config
+```
+```
+touch config/config.yaml
+```
+
+### Prompts
+```
+mkdir prompt
+touch prompt/prompt_library.py
+```
+
+### Main App
+```
+touch app.py
+```
+### Templates
+```
+mkdir templates
+touch templates/index.html
+```
+
+### Static
+```
+mkdir static
+touch static/style.css
+```
