@@ -15,6 +15,7 @@ code .
 ### Create a new Conda environment with Python 3.10
 ```
 conda create -p <env_name> python=3.10 -y
+touch .env
 ```
 
 ### Activate the environment (use full path to the environment)
@@ -59,8 +60,8 @@ touch setup.py
 
 ### Logging & Exception
 ```
-mkdir logging
-touch logging/custom_logger.py
+mkdir logger
+touch logger/custom_logger.py
 ```
 ```
 mkdir exception
@@ -112,4 +113,8 @@ touch templates/index.html
 ```
 mkdir static
 touch static/style.css
+```
+### Initializing Setup.py
+```
+pip install -e .
 ```
